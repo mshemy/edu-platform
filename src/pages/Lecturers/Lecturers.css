@@ -1,0 +1,49 @@
+.lecturers-page {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 40px 20px;
+  }
+  
+  .page-title {
+    font-size: 32px;
+    font-weight: 700;
+    margin-bottom: 10px;
+    color: #2c3e50;
+  }
+  
+  .page-subtitle {
+    font-size: 16px;
+    color: #666;
+    margin-bottom: 30px;
+  }
+  
+  .filter-bar {
+    display: flex;
+    gap: 12px;
+    margin-bottom: 30px;
+    flex-wrap: wrap;
+  }
+  
+  .filter-btn {
+    padding: 10px 20px;
+    border: 2px solid var(--accent-color);
+    background: #fff;
+    color: var(--accent-color);
+    border-radius: 8px;
+    font-size: 14px;
+    font-weight: 600;
+    cursor: pointer;
+    transition: all 0.3s;
+  }
+  
+  .filter-btn:hover,
+  .filter-btn.active {
+    background: var(--accent-color);
+    color: #fff;
+  }
+  
+  .lecturers-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+    gap: 24px;
+  }

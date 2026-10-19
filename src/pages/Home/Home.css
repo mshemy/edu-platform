@@ -1,0 +1,328 @@
+/* Hero Section */
+.hero-section {
+    background: #f5f7fa;
+    padding: 60px 20px;
+  }
+  
+  .hero-container {
+    max-width: 1200px;
+    margin: 0 auto;
+    display: grid;
+    grid-template-columns: 1fr 1.5fr;
+    gap: 60px;
+    align-items: center;
+  }
+  
+  .hero-image {
+    position: relative;
+  }
+  
+  .lecturer-photo {
+    width: 100%;
+    max-width: 500px;
+    border-radius: 12px;
+    box-shadow: 0 8px 24px rgba(0, 0, 0, 0.12);
+  }
+  
+  .hero-content {
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+  }
+  
+  .hero-title {
+    font-family: var(--font-family);
+    font-size: 32px;
+    font-weight: 700;
+    line-height: 1.4;
+    color: #1a1a1a;
+    margin: 0;
+  }
+  
+  .hero-button {
+    display: inline-block;
+    padding: 16px 32px;
+    background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+    color: #fff;
+    text-decoration: none;
+    font-size: 16px;
+    font-weight: 600;
+    border-radius: 8px;
+    transition: all 0.3s;
+    align-self: flex-start;
+    box-shadow: 0 4px 12px rgba(102, 126, 234, 0.3);
+  }
+  
+  .hero-button:hover {
+    transform: translateY(-2px);
+    box-shadow: 0 6px 16px rgba(102, 126, 234, 0.4);
+  }
+  
+  /* About Platform Section */
+  .about-platform-section {
+    padding: 80px 20px;
+    background: #fff;
+  }
+  
+  .platform-container {
+    max-width: 1200px;
+    margin: 0 auto;
+  }
+  
+  .platform-header {
+    margin-bottom: 40px;
+  }
+  
+  .platform-title {
+    font-family: 'Georgia', serif;
+    font-size: 36px;
+    font-weight: 700;
+    color: #2c3e50;
+    margin: 0;
+    text-align: center;
+  }
+  
+  .platform-main-text {
+    max-width: 900px;
+    margin: 0 auto 60px;
+  }
+  
+  .platform-description {
+    font-family: 'Times New Roman', serif;
+    font-size: 20px;
+    line-height: 1.8;
+    color: #34495e;
+    margin-bottom: 20px;
+    text-align: center;
+  }
+  
+  /* Features Grid */
+  .platform-features {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 30px;
+    margin-bottom: 60px;
+  }
+  
+  .feature-card {
+    background: #f8f9fa;
+    padding: 30px;
+    border-radius: 12px;
+    text-align: center;
+    transition: all 0.3s;
+    border: 2px solid transparent;
+  }
+  
+  .feature-card:hover {
+    transform: translateY(-5px);
+    border-color: var(--accent-color);
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.08);
+  }
+  
+  .feature-icon {
+    font-size: 48px;
+    margin-bottom: 15px;
+  }
+  
+  .feature-title {
+    font-family: var(--font-family);
+    font-size: 20px;
+    font-weight: 600;
+    color: #2c3e50;
+    margin-bottom: 10px;
+  }
+  
+  .feature-text {
+    font-family: var(--font-family);
+    font-size: 15px;
+    line-height: 1.6;
+    color: #666;
+    margin: 0;
+  }
+  
+  /* Stats */
+  .platform-stats {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 40px;
+    text-align: center;
+    padding: 40px;
+    background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+    border-radius: 16px;
+    color: #fff;
+  }
+  
+  .stat-item {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+  }
+  
+  .stat-number {
+    font-size: 48px;
+    font-weight: 700;
+  }
+  
+  .stat-label {
+    font-size: 16px;
+    color: #764ba2 !important; /* <-- Добавили белый цвет */
+    opacity: 1;   /* <-- Убрали прозрачность, чтобы текст был ярче */
+  }
+  
+  /* Preview Lecturers */
+  .preview-lecturers-section {
+    padding: 80px 20px;
+    background: #f5f7fa;
+  }
+  
+  .preview-container {
+    max-width: 1200px;
+    margin: 0 auto;
+  }
+  
+  .section-title {
+    font-family: var(--font-family);
+    font-size: 36px;
+    font-weight: 700;
+    color: #2c3e50;
+    margin-bottom: 50px;
+    text-align: center;
+  }
+  
+  .lecturers-grid {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 30px;
+    margin-bottom: 40px;
+  }
+  
+  .lecturer-preview-card {
+    background: #fff;
+    padding: 25px;
+    border-radius: 12px;
+    text-align: center;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.08);
+    transition: all 0.3s;
+  }
+  
+  .lecturer-preview-card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 8px 24px rgba(0, 0, 0, 0.12);
+  }
+  
+  .preview-photo {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    object-fit: cover;
+    margin-bottom: 20px;
+    border: 4px solid var(--accent-color);
+    display: block;
+  }
+  
+  .preview-name {
+    font-family: var(--font-family);
+    font-size: 18px;
+    font-weight: 600;
+    color: #2c3e50;
+    margin-bottom: 8px;
+  }
+  
+  .preview-degree {
+    font-size: 14px;
+    color: #666;
+    margin-bottom: 8px;
+  }
+  
+  .preview-experience {
+    font-size: 14px;
+    color: #888;
+    margin-bottom: 15px;
+  }
+  
+  .preview-link {
+    color: var(--accent-color);
+    text-decoration: none;
+    font-weight: 600;
+    font-size: 15px;
+    transition: all 0.3s;
+  }
+  
+  .preview-link:hover {
+    color: #6fa3f5;
+  }
+  
+  .center-button {
+    text-align: center;
+    margin-top: 40px;
+  }
+  
+  .secondary-button {
+    display: inline-block;
+    padding: 16px 40px;
+    background: #fff;
+    color: var(--accent-color);
+    text-decoration: none;
+    font-size: 16px;
+    font-weight: 600;
+    border-radius: 8px;
+    border: 2px solid var(--accent-color);
+    transition: all 0.3s;
+  }
+  
+  .secondary-button:hover {
+    background: var(--accent-color);
+    color: #fff;
+  }
+  
+  /* Responsive */
+  @media (max-width: 1024px) {
+    .hero-container {
+      grid-template-columns: 1fr;
+      text-align: center;
+    }
+    
+    .hero-image {
+      max-width: 400px;
+      margin: 0 auto;
+    }
+    
+    .hero-button {
+      align-self: center;
+    }
+    
+    .platform-features {
+      grid-template-columns: repeat(2, 1fr);
+    }
+    
+    .lecturers-grid {
+      grid-template-columns: repeat(2, 1fr);
+    }
+  }
+  
+  @media (max-width: 768px) {
+    .hero-title {
+      font-size: 24px;
+    }
+    
+    .platform-title {
+      font-size: 28px;
+    }
+    
+    .platform-description {
+      font-size: 18px;
+    }
+    
+    .platform-features {
+      grid-template-columns: 1fr;
+    }
+    
+    .platform-stats {
+      grid-template-columns: 1fr;
+      gap: 30px;
+    }
+    
+    .lecturers-grid {
+      grid-template-columns: 1fr;
+    }
+  }

@@ -1,0 +1,26 @@
+:root {
+    /* Градиент для шапки из задания */
+    --header-gradient: linear-gradient(90deg, #9DB1D2 0%, #8CB6FB 50%, #ADACAA 100%);
+    
+    /* Базовые цвета */
+    --bg-color: #f9f9f9;
+    --text-main: #333333;
+    --text-secondary: #666666;
+    --accent-color: #8CB6FB;
+    --primary-color: #667eea;
+    --secondary-color: #764ba2;
+    
+    /* Шрифты */
+    --font-family: 'Segoe UI', Roboto, Helvetica, Arial, sans-serif;
+    --font-serif: 'Georgia', serif;
+    --font-mono: 'Courier New', monospace;
+    
+    /* Размеры */
+    --max-width: 1200px;
+    --header-height: 70px;
+    
+    /* Тени */
+    --shadow-sm: 0 2px 8px rgba(0, 0, 0, 0.08);
+    --shadow-md: 0 4px 12px rgba(0, 0, 0, 0.12);
+    --shadow-lg: 0 8px 24px rgba(0, 0, 0, 0.15);
+  }
