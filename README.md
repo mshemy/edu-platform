@@ -1,16 +1,27 @@
-# React + Vite
+#  EduPlatform — Учебная платформа
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Учебный проект на React. Платформа для подбора лекторов и организации онлайн/оффлайн занятий.
 
-Currently, two official plugins are available:
+##  Стек и версии
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+- **React:** 18.3.1
+- **React Router DOM:** 6.22.0
+- **Vite:** 5.x
+- **Node.js:** 18+ (рекомендуется)
+- **npm:** 10+
 
-## React Compiler
+##  Команды для установки и запуска
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+```bash
+# 1. Клонировать репозиторий
+git clone https://github.com/mshemy/edu-platform.git
+cd edu-platform
 
-## Expanding the ESLint configuration
+# 2. Установить зависимости
+npm install
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+# 3. Запустить в режиме разработки
+npm run dev
+
+# 4. Собрать продакшн-версию
+npm run build
